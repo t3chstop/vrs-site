@@ -5,3 +5,5 @@ document.addEventListener('scroll', (e) => {
     document.querySelector('.site-header').classList.remove('scrolled')
   }
 })
+
+document.addEventListener("touchstart", function() {}, true);

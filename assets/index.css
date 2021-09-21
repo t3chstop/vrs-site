@@ -6,6 +6,7 @@ body {
   background-image: url(bg2.png);
   background-size: contain;
   background-repeat: no-repeat;
+  padding-bottom: 100px;
 }
 .site-header {
   padding: 0px 20px;
@@ -130,7 +131,9 @@ body {
     display: block;
   }
 }
-.site-header .trigger:hover .soh {
+.site-header .trigger:hover .soh,
+.site-header .trigger:focus .soh,
+.site-header .trigger:focus .soh {
   display: block;
 }
 header {
@@ -155,8 +158,14 @@ header h1 {
   margin: 0;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 675px) {
+  header h1 {
+    font-size: 75px;
+  }
+}
 header a {
   background: #F57E25;
+  display: inline-block;
   padding: 5px 13px;
   font-size: 22px;
   color: white;
