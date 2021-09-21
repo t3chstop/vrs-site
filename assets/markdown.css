@@ -1,0 +1,31 @@
+main .container * {
+  font-weight: 400;
+}
+main .container h1 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 30px;
+  border-bottom: 4px solid black;
+}
+main .container h2 {
+  font-size: 35px;
+  margin: 0;
+}
+main .container h3 {
+  font-size: 25px;
+}
+main .container img {
+  width: 100%;
+  margin: auto;
+  align-self: center;
+}
+main .container table {
+  border-collapse: collapse;
+}
+main .container table tr * {
+  border: 2px solid black;
+  padding: 10px;
+}
+main .container table th {
+  font-weight: bold;
+}
