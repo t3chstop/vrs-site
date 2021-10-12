@@ -25,7 +25,7 @@ Computer programming languages like JAVA, Python, and C++ allow humans to write 
 
 Teachers of Computer Programming noticed that it was difficult for students to “climb the first hill” of learning a programming language because it was too much new information at once, so they thought of a new way to teach the concepts of computer programming: programming blocks.
 
-![All blocks screenshot](./assets/courses/blocks-in-vrs/all-blocks-2.png)
+![All blocks screenshot](../assets/courses/blocks-in-vrs/all-blocks-2.png)
 
 Programming blocks combine the simplicity of building block toys like Legos, with the power of writing a programming language like JAVA. By stacking and combining blocks in the right order, students are able to write computer code that a computing machine, like a robot, can understand.
 
@@ -51,7 +51,7 @@ Our first task will be to move the robot forward and backwards.
 
 Let’s take a look at the default code template we see when we load up the program for the first time and select “Autonomous Mode”
 
-![Opmode-start screenshot](./assets/courses/blocks-in-vrs/opmode-start.png)
+![Opmode-start screenshot](../assets/courses/blocks-in-vrs/opmode-start.png)
 
 Here’s what each block means:
 
@@ -70,7 +70,7 @@ Here’s what each block means:
 
 The following code blocks drive the robot forward for two seconds at a power of 0.2. After that we want it to strafe to the right. If we set the frontLeft power to 0.2, what would we set the other values to? Try this out in the app and then come back here to see the answer.
 
-![Motor power screenshot](./assets/courses/blocks-in-vrs/motor-power.png)
+![Motor power screenshot](../assets/courses/blocks-in-vrs/motor-power.png)
 
 Aha! We hope you see that exploring the blocks in your toolbox often reveals a better way to accomplish a task.
 

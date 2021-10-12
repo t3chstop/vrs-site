@@ -207,8 +207,33 @@ main .container h2 {
 main .container div {
   margin-bottom: 50px;
 }
-main img.hero {
+main div.hero {
   width: 80%;
   max-width: 900px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 5px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 10px;
+  border-radius: 10px;
+}
+main div.hero::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+main div.hero::-webkit-scrollbar-thumb {
+  background: #B3AFB3;
+  border-radius: 0px;
+}
+main div.hero::-webkit-scrollbar-thumb:hover {
+  background: #949494;
+}
+main div.hero::-webkit-scrollbar-track {
+  background: #F0F0F0;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+}
+main div.hero img {
+  width: 100%;
 }
