@@ -13,7 +13,7 @@ Have you ever wondered how humans tell machines what to do? Machines might seem 
 
 Computer Code is how humans talk to computing machines, which nowadays include desktop computers, laptop, phones, tablets, video game systems, robots, satellites… and the list goes on!
 
-At the heart of all these machines are microprocessors, which is the “brain” of a machine. Unlike our brains which evolved over billions of years, machine brains were created by human scientists over about a century.
+At the heart of all these machines are microprocessors, which is the “brain” of a machine. Unlike our brains which evolved over thousands of years, machine brains were created by human scientists over about a century.
 
 Microprocessors control the flow of electricity in a computing machine, and by “talking” to them we can tell them what to do. Microprocessors might tell a light to turn on, a phone to vibrate, the color of pixels, or a robot to start moving.
 
