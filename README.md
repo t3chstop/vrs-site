@@ -1,52 +1,33 @@
 # vrs
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+Welcome to the source code for VRS's website! Built in Jekyll, LESS, HTML, and JavaScript.
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+# Running locally
 
-TODO: Delete this and the text above, and describe your gem
+In the folder you wish to be the root of your VRS dev project, run
 
-
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "vrs"
+```git
+git clone https://github.com/Virtual-FTC/vrs-site.git .
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+If you have Ruby installed, run `bundle exec jekyll serve` (It will default to port 4000. If 4000 is not availible, you can use the `port` flag to specify a different port.)
 
-```yaml
-theme: vrs
-```
+If you do not have Ruby installed, follow [these directions](https://jekyllrb.com/docs/installation/)
 
-And then execute:
+# Contributing
 
-    $ bundle
+The following require Pull Requests.
 
-Or install it yourself as:
+1. Stylistic changes
+2. Scripting changes
+3. Config changes
+4. Upfront, not previously discussed content changes on popular pages
 
-    $ gem install vrs
+The following can simply be pushed to `master`.
 
-## Usage
+1. New content like courses
+2. Typo or bug fixes
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+The website is served from Cloudflare Pages for now, will be transferred to GH pages eventually.
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `vrs.gemspec` accordingly.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+Check the GH projects for bug triage and to-do items.
