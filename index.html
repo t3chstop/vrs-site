@@ -7,7 +7,6 @@
   <title>Virtual Robot Simulator</title>
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic" rel="stylesheet" />
   <link rel="stylesheet" href="./assets/index.css">
-  <script src="./assets/index.js" defer></script>
 </head>
 <body>
   <nav class='site-header'>
@@ -18,7 +17,6 @@
     <a href="/getting-started.html" class="getting-started">Start</a>
     <a href="./courses" class="documentation">Documentation</a>
     <div href="#" class="trigger" aria-haspopup="true">
-      ▼
       <div class="soh">
         <a href="">Forum</a>
         <a href="">About Us</a>
@@ -35,12 +33,28 @@
     </div>
   </header>
   <main>
-    <div class="hero">
-      <img class="hero" src="./assets/vrs-screenshot.png" alt="VRS App screenshot">
-      <iframe src="https://www.youtube.com/embed/bKFBm2jqFpI" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
-      <iframe src="https://www.youtube.com/embed/y0BJnho-U7M" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>      
-      <iframe src="https://www.youtube.com/embed/gVXmlmTaWiM" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>    
+
+    <!-- Video slideshow -->
+    <div class="video-slider">
+      <!-- SLIDE 1 -->
+      <div class="slide">
+        <iframe class="video" src="https://www.youtube.com/embed/Gw6ZsL_zgd8?ecver=2&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+      </div>
+      <!-- SLIDE 2 -->
+      <div class="slide">
+        <iframe class="video" src="https://www.youtube.com/embed/Fw4DwJwmQMA?ecver=2&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+      </div>
+      <!-- SLIDE 3 -->
+      <div class="slide">
+        <iframe class="video" src="https://www.youtube.com/embed/bKFBm2jqFpI?ecver=2&enablejsapi=1" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen></iframe>
+      </div>
+      <!-- BUTTONS -->
+      <div class="slide-arrow left"></div>
+      <div class="slide-arrow right"></div>
     </div>
+
+    
+
     <div class="container">
       <div>
         <img src="https://img.icons8.com/ios-glyphs/90/000000/blockly-green.png"/>
@@ -64,5 +78,8 @@
       </div>
     </div>
   </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+  <script src="assets/video-slideshow.js"></script>
 </body>
 </html>
